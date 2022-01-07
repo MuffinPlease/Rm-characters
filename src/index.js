@@ -1,9 +1,7 @@
-import getData from 'getData';
+const searchData = require('./utils/getData');
 
 const setData = async () => {
-    const character = await getData();
+    return await searchData();
+};
 
-    console.log(character.name);
-}
-
-setData();
+setData().then(result => console.log(result)).catch(reason => console.error(reason));
