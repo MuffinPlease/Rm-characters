@@ -1,0 +1,24 @@
+{
+  "name": "rm-characters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuffinPlease/Rm-characters-.git"
+  },
+  "keywords": [],
+  "author": "Muffin Please <benjamintec3455@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MuffinPlease/Rm-characters-/issues"
+  },
+  "homepage": "https://github.com/MuffinPlease/Rm-characters-#readme",
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
