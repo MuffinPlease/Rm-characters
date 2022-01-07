@@ -20,7 +20,7 @@ main{
     align-items: center;
     /* Box */
     width: 400px;
-    border: 2px solid black;
+    border: 2px dashed  black;
     border-radius: 16px;
     padding: 16px;
     /* Text */

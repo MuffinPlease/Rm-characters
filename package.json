@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MuffinPlease/Rm-characters-#readme",
   "devDependencies": {
+    "axios": "^0.24.0",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
   }
