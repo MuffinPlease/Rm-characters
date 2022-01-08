@@ -1,6 +1,6 @@
-import './styles/main.css'
+import '@styles/main.css'
 
-const API = "https://rickandmortyapi.com/api/character/";
+const API = process.env.API;
 
 const searchData = async () =>{
     try{
