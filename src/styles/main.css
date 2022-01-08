@@ -23,13 +23,18 @@ main{
     border: 2px dashed  black;
     border-radius: 16px;
     padding: 16px;
+    padding-top: 80px;
     /* Text */
     font-size: 16px;
 }
 
 .content img{
+    /* Box */
     width: 200px;
     border-radius: 50%;
+    /* Position */
+    position: absolute;
+    top: 20%;
 }
 
 .content p{
