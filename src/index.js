@@ -29,7 +29,7 @@ const setData = async() => {
     const species = character.species;
 
     content.innerHTML += 
-    ` <img src="${img}" alt="${name}">
+    ` <div class="image"><img src="${img}" alt="${name}"></div>
     <p class="name">${name}</p>
     <p><b>Status: </b>${status}</p>
     <p><b>Gender: </b>${gender}</p>

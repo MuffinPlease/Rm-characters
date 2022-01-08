@@ -23,18 +23,22 @@ main{
     border: 2px dashed  black;
     border-radius: 16px;
     padding: 16px;
-    padding-top: 80px;
+    box-sizing: border-box;
     /* Text */
     font-size: 16px;
 }
 
-.content img{
+.image img{
     /* Box */
     width: 200px;
     border-radius: 50%;
     /* Position */
-    position: absolute;
-    top: 20%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+.image{
+    height: 100px;
 }
 
 .content p{
@@ -50,4 +54,18 @@ main{
     font-weight: 700;
     /* Box */
     margin-bottom: 16px;
+}
+
+@media (max-width: 445px){
+    .content{
+        width: 100%;
+        text-align: center;
+        padding-top: 16px;
+    }
+    .image img{
+        width: 150px;
+    }
+    .image{
+        height: 75px;
+    }
 }
