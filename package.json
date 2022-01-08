@@ -6,8 +6,7 @@
   "homepage": "https://MuffinPlease.github.io/Rm-characters",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "webpack --mode production --config webpack.config.js",
-    "deploy": "gh-pages -d dist"
+    "build": "webpack --mode production --config webpack.config.js"
   },
   "repository": {
     "type": "git",
