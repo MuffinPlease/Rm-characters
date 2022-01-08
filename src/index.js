@@ -1,3 +1,5 @@
+import './styles/main.css'
+
 const API = "https://rickandmortyapi.com/api/character/";
 
 const searchData = async () =>{
